@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-menu {
+    margin-top: 0;
+  }
+  /* .dropdown:hover>.dropdown-menu {
+      
+    display: block;
+  } */
+  .navbar .nav-item.active .nav-link,
+ .nav-item:hover .nav-link  {
+    color: rgb(21, 21, 216);
+    
+    background-color:rgb(22, 22, 224); 
+    /* add background-color to active links */
+ }
+ .imgs{
+    width:100%;
+        min-height:350px;
+        max-height:600px; 
+        
+}
+.pwork{
+    word-spacing: 2fr;
+    font: 1.5em sans-serif;
+    
+}
+.doller{
+    font-size: 1.5em;
+    font-style:normal;
+    font: sans-serif;
+
+}
+
+/* ======= */
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+
+
+/* ============ */
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 16px 16px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%; 
+    
+
+}
+  
+  .button:hover {
+    background-color: rgb(26, 26, 228)}
+
+
+    /* ===================== */
+
+
+    .social-icon {
+        height: 80px;
+        width: 80px;
+        font-size: 2em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.45rem;
+        color: rgb(248, 239, 239);
+        border-radius: 70%;
+        text-decoration: none;
+        border: 1px dotted rgb(36, 206, 21);
+        transition: 0.3s; }
+      
+      .social-icon:hover {
+        border-color: #dfe1e2;
+        text-decoration: none; }
+      
+      .contact-links {
+        display: flex;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-bottom: 10px;
+        color: #3525af;
+        right: 0px; }
+
+
+        footer{
+            height: 250px;
+        }
